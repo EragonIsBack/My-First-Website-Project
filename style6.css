@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to right, rgb(6, 26, 158), #068cc6);   
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+}
+
+p1{
+    text-align: center;
+    justify-content: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 20px;
+    color: rgb(166, 164, 164);
+}
+
+p2{
+    text-align: center;
+    justify-content: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 20px;
+    color: rgb(166, 164, 164);
+}
+
+p3{
+    text-align: center;
+    justify-content: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 20px;
+    color: rgb(166, 164, 164);
+
+}
+
+p4{
+    text-align: center;
+    justify-content: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 18px;
+    color: rgb(166, 164, 164);
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    justify-content: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(59, 56, 56);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(96, 254, 207);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 0%);
+}
+
+.navbarr ul{
+    list-style-type: none;
+    background-color: rgb(59, 56, 56);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.navbarr a{
+    color:rgb(239, 5, 5);
+    font-size: 20px;
+    text-decoration: none;
+    padding:0px;
+    text-align: center;
+    display: block;
+}
+
+.navbar li{
+    float: left;
+    font-family: "Poppins", sans-serif;
+}
