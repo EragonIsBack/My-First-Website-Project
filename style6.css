@@ -69,20 +69,35 @@ a{
     background-color: rgb(59, 56, 56);
     padding: 0px;
     margin: 0px;
+    width: 574px;
+    height: 49px;
     border-radius: 25px;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .navbar a{
     color: rgb(96, 254, 207);
     text-decoration: none;
     padding: 15px;
+    font-weight: 500;
     display: block;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar a:hover{
     background-color: hsl(0, 0%, 0%);
+    color: royalblue;
+    font-weight: 500;
+}
+
+.navbar li{
+    float: left;
+    font-family: "Poppins", sans-serif;
 }
 
 .navbarr ul{
@@ -92,18 +107,38 @@ a{
     margin: 0px;
     border-radius: 25px;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .navbarr a{
     color:rgb(239, 5, 5);
+    background-color: rgb(49, 47, 47);
+    padding: 15px;
+    width: 574px;
+    height: 30px;
     font-size: 20px;
     text-decoration: none;
-    padding:0px;
+    padding:5px;
     text-align: center;
     display: block;
+    flex-direction: column;
 }
 
-.navbar li{
-    float: left;
-    font-family: "Poppins", sans-serif;
+.navbarr a:hover{
+    background-color: black;
+    color: purple;
+}
+
+.navbarr li{
+    align-items: center;
+    font-family: "poppins",sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    padding: 50px;
+    padding-left: 500px;
+    border-radius: 100px;
 }
