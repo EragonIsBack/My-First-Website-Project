@@ -41,20 +41,47 @@ p1{
     background-color: rgb(59, 56, 56);
     padding: 0px;
     margin: 0px;
+    width: 574px;
+    height: 49px;
     border-radius: 25px;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .navbar a{
     color: rgb(96, 254, 207);
     text-decoration: none;
     padding: 15px;
+    font-weight: 500;
     display: block;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar a:hover{
     background-color: hsl(0, 0%, 0%);
+    color: royalblue;
+    font-weight: 500;
+}
+
+
+.navbarr ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.navbarr audio{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding: 0px;
 }
 
 .navbar li{
